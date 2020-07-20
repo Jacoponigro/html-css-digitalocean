@@ -1,0 +1,13 @@
+.header_top {
+  background-color: grey;
+  height: 80px;
+  line-height:80px;
+}
+
+.jumbo{
+  margin-top: 50px;
+}
+.jumbo_item{
+  height: 300px;
+  background-color: grey;
+}
