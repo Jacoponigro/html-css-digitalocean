@@ -3,6 +3,10 @@
   height: 80px;
   line-height:80px;
 }
+.header_top{
+  position: fixed;
+  width: 100%;
+}
 .jumbo{
   margin-top: 50px;
 }
@@ -14,4 +18,13 @@
   height: 80px;
   background-color: blue;
   margin-bottom: 10px;
+}
+.second_main{
+  height:200px;
+  background-color:red;
+}
+.second_main_item{
+  height: 80px;
+  margin:2px;
+  background-color: green;
 }
