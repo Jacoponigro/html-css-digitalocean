@@ -177,13 +177,17 @@ h1{
 .left{
 
 }
-
 /* fine terza sezione */
-.fourth_main{
-  height: 150px;
-  background-color: black;
-  border: 1px solid #fff;
+/* quarta sezione */
+.fourth_main p{
+  text-align:left;
 }
+.fourth_main h2{
+  text-align: center;
+
+}
+/* fine quarta sezione */
+/* quinta sezione */
 .sixth_main{
   height: 150px;
   background-color: orange;
