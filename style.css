@@ -125,20 +125,60 @@ h1{
   background-color: lightgrey;
 }
 /* fine prima sezione */
+/* seconda sezione */
 .second_main{
-  height:350px;
-  background-color:red;
+  text-align: center;
 }
-.second_main_item{
-  height: 80px;
-  margin:2px;
-  background-color: green;
+
+.lista {
+  padding-left: 10px;
+  font-size: 21px;
+  color: #606D8C;
+  border-left: 2px solid #ddd;
 }
-.third_main{
-  height:150px;
-  background-color: yellow;
-  margin:5px;
+
+.lista li:not(:last-child) {
+  margin-bottom: 15px;
 }
+.lista li{
+  list-style: none;
+}
+.main_item{
+  float: left;
+  margin-bottom: 20px;
+  width: 49%;
+}
+/* fine seconda sezione */
+/* terza sezione */
+.third_main h2 , p {
+  text-align:center;
+  margin-bottom: 30px;
+}
+.third_main img{
+  margin-left:23%;
+  margin-bottom: 30px;
+}
+.paragraph p {
+  color: #031C4E;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.paragraph li{
+  list-style: none;
+  display: inline-block;
+}
+.paragraph ul{
+  text-align: center;
+}
+.fa-circle{
+  color:blue;
+}
+.left{
+
+}
+
+/* fine terza sezione */
 .fourth_main{
   height: 150px;
   background-color: black;
